@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="https://i.postimg.cc/J4gzfbkf/Kakao-Talk-20201201-015916758.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/59d39ee95b.js" crossorigin="anonymous"></script>
+    <style>
+        *{
+    margin: 0; 
+}
+
+#wrap{
+    width: 100%; height: auto; margin: auto;
+    
+}
+
+/* ============================ */
+header{
+    width: 100%; height:80px; background-color: #ec7357; 
+   position: fixed; top: 0; left: 0;
+   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+#head{
+    position: static;
+}
+
+.group_01{
+    width: 100%; margin:auto; padding-top: 20px; padding-bottom: 20px;
+}
+
+.logo{
+    float: left; margin-right: 20px; margin-left: 100px;
+    
+}
+
+.logo img{
+    display: block; width: 76px; height: 40px; 
+}
+
+.search{
+    border-radius: 16px; width: 500px; height: 42px;
+    background-color: #fff; margin: auto; float: left;
+    
+}
+
+#search_icon{
+    width: 22px; height: 22px; float: left; display: inline-block;
+    vertical-align: center; padding-top: 12px;
+    padding-left: 12px; 
+}
+
+.search a{
+    color: #000; width: inherit; height: inherit; font-family: 'Do Hyeon', sans-serif;
+}
+
+.search p{
+    font-size: 16px; text-align: center; font-family: 'Do Hyeon', sans-serif;
+    float: right; line-height: 43px; 
+
+}
+
+.center{
+    padding-right: 230px; 
+}   
+
+li{
+    display: inline-block; width: 100%; font-family: 'Noto Sans KR', sans-serif;
+}
+
+ul{
+     float: right;
+}
+
+.nav{
+    float: right; width: 650px;
+}
+
+.nav a{
+    text-decoration: none; color: #fff;
+    display: inline-block; font-weight: 400; width: 140px;
+    text-align: center; line-height: 40px;
+}
+
+.nav li{
+    border-left: 1px solid #fff;
+}
+
+.nav a:hover{
+    font-size: 1.1rem; line-height: 36px; font-weight: bold;
+}
+
+/* ============================= */
+.pic{
+    width: 100%; height: 510px; 
+    background-image: url(https://i.postimg.cc/rsM09kwS/Kakao-Talk-20201207-012452216.png);
+    background-repeat: no-repeat; background-size: cover; background-position: center center;
+    
+}
+
+.box{
+    width: 100%; height: 510px;
+    background-color: rgba(255, 255, 255, 0.4); margin: auto; 
+}
+
+h1{
+    font-size: 50px; font-family: 'Noto Sans KR', sans-serif;
+    line-height: 510px; text-align: center;  font-weight: 600;
+}
+
+
+/* ============================= */
+.content{
+    width: 100%; height: auto; margin: auto;
+}
+
+.all{
+    width: 1200px; height: auto; margin: auto; border: 1px solid #f0f0f3; background-color: #f0f0f3;
+    margin-top: 60px; margin-bottom: 60px;
+}
+
+.menu{
+    border: 1px solid white; margin: 40px; background-color: white;
+    width: 1120px; height: 320px; 
+}
+
+.detail_pic{
+    width: 480px; height: 320px; float: left;
+}
+
+
+.clearfix::after{
+    content: '';
+    display: block; clear: both;
+}
+
+.detail_ex{
+    padding: 46px; width: 564px; padding-left: 120px;
+    float: left; height: 320px; box-sizing: border-box;
+}
+
+h2{
+    font-size: 40px; color: #000; font-family: 'Noto Sans KR', sans-serif;
+}
+
+h3{
+    font-size: 16px; color: #545454; font-family: 'Noto Sans KR', sans-serif;
+    margin-top: 12px; font-weight: 400;
+}
+
+#text {
+   font-weight: 100; font-size: 20px;
+}
+
+h4{
+    width: 150px; height: 40px; background-color: #ec7357;
+    font-size: 20px; color: #fff; display: inline-block;
+    margin-top: 22px; text-align: center; line-height: 40px;
+    font-family: 'Do Hyeon', sans-serif; font-weight: 100;
+}
+
+.content a{
+    text-decoration: none; color: #fff; width: 100%; height: 100%; 
+    display: block;
+}
+
+/* =============== */
+.list a{
+    color: #ec7357; line-height: 48px; font-family: 'Do Hyeon', sans-serif;
+    font-size: 32px; text-decoration: none; 
+    display: block; font-weight: 100;
+}
+
+.list li{
+    list-style: none; display: inline-block;
+    border: 4px solid #ec7357; width: 48px; height: 48px;
+    text-align: center; margin-left: 16px; margin-right: 16px; background-color: white;
+}
+
+.list{
+    margin: 56px auto; width: 324px; height: 56px; 
+
+}
+
+/* ============== */
+
+.list li a:hover{
+    color: #fff; background-color: #ec7357; 
+}   
+
+.list li:hover{
+    border: 4px solid #ec7357; 
+}
+
+/* ============================= */
+footer{
+    width: 100%; height: auto; background-color: #ec7357; 
+    float: left; 
+}
+
+.foot_content{
+    width: 50%;
+    float: left; box-sizing: border-box;
+
+}
+
+.foot_logo img{
+    width: 100px; padding-left: 70px; padding-top: 28px; 
+}
+.foot_content p{
+    padding-left: 70px; padding-top: 12px; color: #f0f0f3;
+    font-size: 12px; 
+}
+
+.per{
+    width: 10%; float: right;
+     height: 150px; padding-top: 50px; box-sizing: border-box;
+}
+
+.per span{
+    font-size: 16px; padding-right: 12px;
+    color: #fff; font-weight: 400; 
+}
+
+footer i{
+    color: #fff; padding-right: 10px; 
+}
+
+.per p{
+    color: #f0f0f3;  font-size: 14px; padding-right: 100px;
+    padding-top: 5px; text-align: right;
+}
+    </style>
+    <title>먹부림</title>
+</head>
+<body>
+    <div id="wrap">
+
+        <header>
+            <div class="group_01">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="https://i.postimg.cc/wBLCd89y/Kakao-Talk-20201207-011520501.png" alt=""></a>
+                </div>
+                <div class="search">
+                    <img id="search_icon" src="https://cdn.icon-icons.com/icons2/2406/PNG/512/search_magnifier_icon_145939.png" alt="">
+                    <a href="#"><p class="center">Search</p></a>
+                </div>
+                <div class="nav">
+                    <ul>
+                          <a href="buriburi_05_pub_1.html"><li>PUB&BEER</li></a>
+                        <a href="buriburi_05_res_1.html"><li>RESTAURANT</li></a>
+                        <a href="buriburi_05_cafe_1.html"><li>CAFE</li></a>
+                        <a href="buriburi_03.html"><li>맛집 매거진</li></a>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <header id="head">
+
+        </header>
+
+        <div class="pic">
+            <div class="box">
+                <h1>CAFE</h1>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="all">
+                <div class="menu">
+                    <div class="detail_pic">
+                        <img src="https://i.postimg.cc/RF35jy0c/74.png" alt="" width="480px" height="320px" >
+                    </div>
+                    <div class="detail_ex">
+                        <h2>카페봄봄</h2>
+                        <h3>#귀여운카페 #죠리퐁커피</h3>
+                        <h3 id="text">정왕동 터줏대감 카페!<br />
+                        테이크아웃 전문점이라 지나가면서 커피 한잔 사가기 딱 좋아요
+                        </h3>
+                        <h4><a href="buriburi_04_cafe_1.html">자세히 보기</a></h4>
+                    </div>
+                </div>
+                <div class="menu">
+                    <div class="detail_pic">
+                        <img src="https://i.postimg.cc/bw65pgWL/80.png" alt="" width="480px" height="320px" >
+                    </div>
+                    <div class="detail_ex">
+                        <h2>설빙</h2>
+                        <h3>#이번엔어떤빙수가 #딸기초코녹차인절미</h3>
+                        <h3 id="text">종류별로 다양한 빙수 맛집!<br />
+                        인절미부터 각종 과일 빙수까지 빙수들 총집합!
+                        </h3>
+                        <h4><a href="buriburi_04_cafe_1.html">자세히 보기</a></h4>
+                    </div>
+                </div>
+                <div class="menu">
+                    <div class="detail_pic">
+                        <img src="https://i.postimg.cc/wBLD0TXJ/86.png" alt="" width="480px" height="320px" >
+                    </div>
+                    <div class="detail_ex">
+                        <h2>스타벅스 정왕점</h2>
+                        <h3>#별다방 #초록아줌마가반겨줘요</h3>
+                        <h3 id="text">넓찍한 자리에 고급스러운 커피~<br />
+                        커피는 역시 별다방이지만 용돈 루팡 조심!!!
+                        </h3>
+                        <h4><a href="buriburi_04_cafe_1.html">자세히 보기</a></h4>
+                    </div>
+                </div>
+                <div class="menu">
+                    <div class="detail_pic">
+                        <img src="https://i.postimg.cc/yxcdzkNX/98.png" alt="" width="480px" height="320px" >
+                    </div>
+                    <div class="detail_ex">
+                        <h2>이디야</h2>
+                        <h3>#스타벅스라이벌 #마주보고있다지켜보고있다</h3>
+                        <h3 id="text">정왕에서는 스타벅스 라이벌!<br />
+                        가성비의 원조 이디야 커피<!DOCTYPE html>
+                       
+                        </h3>
+                        <h4><a href="#">자세히 보기</a></h4>
+                    </div>
+                </div>
+                <div class="menu">
+                    <div class="detail_pic">
+                        <img src="https://i.postimg.cc/kgpdf7Jn/116.png" alt="" width="480px" height="320px" >
+                    </div>
+                    <div class="detail_ex">
+                        <h2>투썸플레이스</h2>
+                        <h3>#딸기케이크 #요즘대세는투썸이지</h3>
+                        <h3 id="text">자타공인 요즘대세 카페<br />
+                        트렌드를 따르고 싶다면 투썸으로 가라!
+                        </h3>
+                        <h4><a href="buriburi_04_cafe_1.html">자세히 보기</a></h4>
+                    </div>
+                </div>
+
+              
+            </div>
+        </div>
+   </div>
+     <div class="list">
+                    <li><a href="buriburi_05_cafe_1.html">1</a></li>
+                    <li><a href="buriburi_05_cafe_2.html">2</a></li>
+                    <li><a href="#">3</a></li>
+                    
+                </div>
+                <footer>
+                    <div class="foot_content">
+                        <div class="foot_logo"><a href="index.html"><img src="https://i.postimg.cc/wBLCd89y/Kakao-Talk-20201207-011520501.png" alt=""></a></div>
+                        <p>먹부림
+                            경기도 시흥시 산기대학로 237, 한국산업기술대학교
+                            <br />
+                            © 2020 buriburi Co., Ltd. All rights reserved.</p>
+                    </div>
+                    <div class="per">
+                        <span>김하림</span>
+                        <a href="#"><i class="fab fa-facebook-square fa-2x"></i></a>
+                        <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+                        <p>harim990309@naver.com</p>
+                      
+                    </div>
+                    <div class="per">
+                        <span>김지호</span>
+                        <a href="#"><i class="fab fa-facebook-square fa-2x"></i></a>
+                        <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+                        <p>khow5897@naver.com</p>
+                    </div>
+            </footer>
+            
+ 
+</body>
+</html>
